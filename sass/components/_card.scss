@@ -98,6 +98,10 @@
             background-image: linear-gradient(to right bottom, 
             rgba($color-secondary-light, .85), 
             rgba($color-secondary-dark, .85));
+            &::selection {
+                background-color: $color-secondary-light;
+                color: $color-white;
+            }
         }
 
         &--2 {
@@ -110,6 +114,10 @@
             background-image: linear-gradient(to right bottom, 
             rgba($color-tertiary-light, .85), 
             rgba($color-tertiary-dark, .85));
+            &::selection {
+                background-color: $color-tertiary-light;
+                color: $color-white;
+            }
         }
     }
 
